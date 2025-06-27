@@ -2,6 +2,18 @@
    4. Site Header
    ========================================================================== */
 
+// .site-header {
+//   border-bottom: 1px solid _palette(border);
+//   -ms-flex-align: center;
+//   -webkit-align-items: center;
+//   align-items: center;
+//   display: -ms-flexbox;
+//   display: -webkit-flex;
+//   display: flex;
+//   padding-bottom: 3.33333em;
+//   padding-top: 2.5em;
+// }
+
 .site-header {
   border-bottom: 1px solid _palette(border);
   -ms-flex-align: center;
@@ -10,12 +22,13 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  padding-bottom: 3.33333em;
-  padding-top: 2.5em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  justify-content: space-between; 
 }
 /* Style cho logo ở header */
 .header-logo {
-    height: 2.5em; /* Điều chỉnh chiều cao của logo */
+    height: 2em; /* Điều chỉnh chiều cao của logo */
     width: auto; /* Giữ tỉ lệ khung hình */
     vertical-align: middle; /* Căn giữa theo chiều dọc với chữ */
     margin-right: 0.2em; /* Tạo khoảng cách giữa logo và chữ */
@@ -46,7 +59,7 @@
 
 /* Navigation */
 .site-navigation {
-  margin-left: auto;
+  // margin-left: auto;
 }
 
 .menu {
