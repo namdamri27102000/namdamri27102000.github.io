@@ -1,8 +1,16 @@
 <header class="site-header">
   {% if page.url == "/" %}
-  <h1 class="site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.title}}</a></h1>
+  <h1 class="site-title">
+      <a class="logo-text" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/images/logo-removebg-preview.png" alt="NeuralLens Logo" class="header-logo"> {{site.title}}
+      </a>
+  </h1>
   {% else %}
-  <p class="site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.title}}</a></p>
+  <p class="site-title">
+      <a class="logo-text" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/images/logo-removebg-preview.png" alt="NeuralLens Logo" class="header-logo"> {{site.title}}
+      </a>
+  </p>
   {% endif %}
   <nav class="site-navigation">
     <div class="site-navigation-wrap">
