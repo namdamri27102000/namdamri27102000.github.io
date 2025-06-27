@@ -12,13 +12,13 @@ lang: en-US
 title: "Neurallens"
 
 # A description of your site for meta tag, search engine results.
-description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+description: "Knowledge, a guiding lighthouse. At NeuralLens, we together unleash our vision, delve into the boundless wellspring of AI knowledge, contemplating and discussing the pinnacle of research and applications"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://scriptor-jekyll.netlify.com"
+url: "https://neurallens.io.vn"
 
 # Favicon
 favicon: images/logo-removebg-preview.png
