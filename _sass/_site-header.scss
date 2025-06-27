@@ -13,7 +13,14 @@
   padding-bottom: 3.33333em;
   padding-top: 2.5em;
 }
-
+/* Style cho logo ở header */
+.header-logo {
+    height: 1.2em; /* Điều chỉnh chiều cao của logo */
+    width: auto; /* Giữ tỉ lệ khung hình */
+    vertical-align: middle; /* Căn giữa theo chiều dọc với chữ */
+    margin-right: 0.2em; /* Tạo khoảng cách giữa logo và chữ */
+    display: inline-block; /* Đảm bảo logo nằm cùng dòng với chữ */
+}
 .site-title {
   color: _palette(secondary);
   font-family: _font(secondary);
